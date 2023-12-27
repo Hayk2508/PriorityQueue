@@ -119,6 +119,30 @@ struct Point {
 
 
 int main() {
+    //1//
+//     int n;
+//     std::cin >> n;
+//     std::vector<int> v(n);
+//     for(int &x:v){
+//        std::cin >> x;
+//     }
+//
+//     int k;
+//     std::cin >> k;
+//
+//     PriorityQueue<int> piles(v.begin(),v.end());
+//     while(k>0){
+//         double top = piles.top();
+//         piles.pop();
+//         piles.push(std::ceil(top/2));
+//         --k;
+//     }
+//     int sum = 0;
+//     while(!piles.empty()){
+//         sum+=piles.top();
+//         piles.pop();
+//     }
+//     std::cout << sum;
 
 
 
@@ -132,7 +156,7 @@ int main() {
 
 
 
-    //2//
+                        //2//
 //    int n;
 //    std::cin >> n;
 //
@@ -155,13 +179,7 @@ int main() {
 //    for(int j = v.size() - 1;k>0 ;--j,--k){
 //        std::cout << v[j].x << "," << v[j].y << std::endl;
 //    }
-    std::vector<int> a = { 1,7,9,8,6 };
-    PriorityQueue<int> pr(a.begin(), a.end());
-    pr.push(14);
-    while (!pr.empty()) {
-        std::cout << pr.top() << " ";
-        pr.pop();
-    }
+
 
 
 
